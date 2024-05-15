@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-
 }
 
 body{
@@ -19,18 +18,21 @@ header{
     width: auto;
     position: relative;
     top: -25px;
-    left: -5px;
+    left: 20px;
     height: 200px;
     z-index: 2;
+    
+    
 }
 
+
 .box{
-    border-top: 70px solid transparent;
-    border-left: 200px solid white;
-    border-bottom: 70px solid transparent;
+    border-top: 139px solid transparent;
+    border-left: 300px solid white;
+    border-bottom: 1px solid transparent;
     position: absolute;
     top: 0;
-    left: 100px;
+    left: 200px;
     z-index: 0;
     padding-left: 50px;
     
@@ -40,34 +42,45 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
+    width: 200px;
     height: 140px;
     background-color: white;
 }
 
+
 ul{
     display: flex;
-    flex-shrink: 0;
     list-style: none;
-    flex-direction: row;
     gap: 10rem;
     font-size: 40px;
     padding-right: 120px;
     position: absolute;
-    top: 7px;
+    top: .1em;
     right: 0;
     overflow: hidden;
+    
+}
+
+li{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 4.5em;
 }
 
 h1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-grow: 0;
     font-size: 100px;
     font-weight: 1000;
     padding-left: 0px;
     margin-top: 240px;
     margin-left: 300px;
     margin-bottom: 1px;
-    max-width: 30%;
-    min-width: 30%;
+    width: 7em;
 }
 
 p{
@@ -75,17 +88,29 @@ p{
     padding-left: 0px;
     margin-left: 310px;
     margin-top: 3px;
-    width: 30%;
+    width: 30em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.truck-image{
+    border: 2px solid white;
+    
+    position:absolute;
+    right: 400px;
+    top: 400px;
+    overflow: hidden;
 }
 
 .truck-image>img{
-    border: 2px solid white;
-    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 60em;
     height: 500px;
-    position: absolute;
-    right: 400px;
-    top: 400px;
-
 }
 
 .call{
@@ -100,3 +125,5 @@ p{
     color: white;
     padding: 7px;
 }
+
+/*header*/
