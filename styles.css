@@ -69,7 +69,7 @@ li{
     width: 4.5em;
 }
 
-h1{
+.title{
     display: flex;
     flex-wrap: nowrap;
     flex-shrink: 0;
@@ -127,3 +127,134 @@ p{
 }
 
 /*header*/
+
+.service{
+    font-size: 3rem;
+    font-weight: 1000;
+    text-align: center;
+    margin: 80px;
+}
+
+.service-image{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.bx{
+    border-radius: 10%;
+    border: 7px solid #3882F6;
+    width: 320px;
+    height: 350px;
+    padding: 50px;
+}
+
+.meaning{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+.meaning>*{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.quote>p{
+    margin:0;
+    padding: 200px;
+    width: 100rem;
+    font-weight: 200;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: small;
+}
+
+.contact{
+    background-color: #3882F6;
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    width: 45rem;
+}
+
+.contact>p{
+    align-items: center;
+    width: 51rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.contact>h3{
+    align-items: center;
+    width: 51rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 2px;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.ewan{
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: auto;
+    margin-top: 100px;
+    padding-top: 25px;
+    background-color: #3882F6;
+    width: 12rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+button{
+    background-color: #3882F6;
+    border: 3px solid white;
+    color: white;
+    font-size: medium;
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+/*content*/
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    margin-top: 100px;
+    font-size: medium;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
